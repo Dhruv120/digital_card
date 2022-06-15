@@ -1,0 +1,187 @@
+html{
+  font-size: 62.5%;
+  min-height: 80%;
+}
+
+/* body , html {
+    min-height: 50%;
+} */
+
+*{
+    background-color: rgb(203, 15, 27);
+
+}
+
+
+
+.abcdef {
+    text-align: center;
+}
+
+
+.logooo {
+  position: relative;
+width: 60%;
+background-color: rgba(203, 15, 27, 0);
+transform: translateY(-77%);
+}
+
+.line{
+  background-color: rgba(203, 15, 27, 0);
+width: 103%;
+transform: translateX(-1.5%);
+}
+.image1 , .image2 {
+    height: 30%;
+    width: 40%;
+    display: inline-flex;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.abcd{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content {
+
+    border: 0.5rem solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+
+}
+
+
+
+.director {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 1rem;
+    color: aliceblue;
+}
+
+.services{
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+
+.items{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 1rem;
+    color: aliceblue;
+}
+
+.items .spc{
+    border-left: 0.2rem solid white ;
+    border-right:0.2rem solid white ;
+}
+
+.service2 {
+    padding: 2%;
+    text-align: center;
+
+}
+
+.data{
+  transform: translateY(-48%);
+}
+i{
+    color: orangered;
+}
+
+.service2 .itemss i
+{
+    background-color: aliceblue;
+    border: 0.5rem solid orangered;
+    padding: 10%;
+    border-radius: 50px;
+
+}
+
+.end{
+    text-align: center;
+    transform: translateY(-117%);
+      background-color: rgba(203, 15, 27, 0);
+      margin-bottom: -53.5%;
+      /* margin-bottom: -51.5%; */
+      /* margin-top: -58%; */
+}
+
+.bottom{
+width: 102.25%;
+transform: translateX(-1.25%) translateY(90%);
+z-index: -1;
+background-color: rgba(203, 15, 27, 0);
+
+}
+.icons{
+  /* transform: translateY(90%); */
+}
+.fa-whatsapp{
+  border-radius: 50% !important;
+  padding-left: 13% !important;
+padding-right: 12% !important;
+}
+ .ending {
+    text-decoration: none;
+    text-align: center;
+    font-size: 4rem;
+    /* color:  rgb(203, 15, 27); */
+    color: black;
+    font-weight: bold;
+    margin: 16% auto auto;
+    background-color: rgba(203, 15, 27, 0);
+
+}
+.link{
+  transform: translateY(-7%);
+  background-color: rgba(203, 15, 27, 0);
+
+}
+
+@media (max-width: 1200px) and (min-width :990px)
+{
+    html{
+        font-size: 58%;
+    }
+    .end{
+        margin-bottom: -52%;
+    }
+}
+
+@media (max-width: 989px) and (min-width:769px) {
+    html{
+        font-size: 50%;
+    }
+    .end{
+        margin-bottom: -57.5%;
+    }
+}
+
+@media (max-width: 768px) and (min-width:481px) {
+
+
+    html{
+        font-size: 40%;
+    }
+    .end{
+        margin-bottom: -57.5%;
+    }
+
+}
+
+@media (max-width: 480px) and (min-width:0px) {
+
+
+    html{
+        font-size: 30%;
+    }
+    .end{
+        margin-bottom: -57.5%;
+    }
+
+
+}

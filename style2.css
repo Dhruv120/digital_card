@@ -1,0 +1,30 @@
+ .outer {
+     padding-top: 5%;
+     padding-bottom: 5%;
+     background-color: rgb(203, 15, 27);
+ }
+
+ .galimg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+     border: 8px solid white;
+     box-sizing: border-box;
+     margin: 2%;
+ }
+
+ .inner {
+     border: 5px solid white;
+
+ }
+
+
+ .topper {
+     width: 102%;
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+ }
+
+ .bottom{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }
